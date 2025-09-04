@@ -17,29 +17,30 @@ export default function Portfolio() {
 
   const projects = [
     {
-      title: "Task Management App",
-      description: "A responsive React app for managing daily tasks with local storage persistence.",
-      tech: ["React", "JavaScript", "CSS3", "Local Storage"],
-      github: "#",
-      demo: "#",
-      status: "Completed"
-    },
-    {
-      title: "Weather Dashboard",
-      description: "Clean weather app consuming REST APIs with dynamic backgrounds.",
-      tech: ["HTML5", "JavaScript", "Weather API", "CSS Grid"],
-      github: "#",
-      demo: "#",
-      status: "Completed"
-    },
-    {
-      title: "Personal Blog",
-      description: "Static blog built with modern web technologies and responsive design.",
-      tech: ["HTML5", "CSS3", "JavaScript", "Git"],
+      title: "Automated Trading Bot using OpenAI API",
+      description: "AI-powered bot for trading stocks with real-time data analysis.",
+      tech: ["Python", "OpenAI API", "Railway", "PostgresSQL"],
       github: "#",
       demo: "#",
       status: "In Progress"
+    },
+    {
+      title: "Stock Analytics Dashboard",
+      description: "Dashboard for visualizing stock market trends and analytics.",
+      tech: ["HTML5", "CSS3", "JavaScript", "Git"],
+      github: "#",
+      demo: "#",
+      status: "Planned"
+    },
+    {
+      title: "API Trafic Manager",
+      description: "Web app to monitor and manage API traffic with analytics dashboard.",
+      tech: ["HTML5", "JavaScript", "CSS Grid"],
+      github: "#",
+      demo: "#",
+      status: "Planned"
     }
+
   ];
 
   const skills = [
@@ -48,7 +49,8 @@ export default function Portfolio() {
     { name: "HTML5", level: 90 },
     { name: "CSS3", level: 85 },
     { name: "Git", level: 70 },
-    { name: "Node.js", level: 45 }
+    { name: "Node.js", level: 45 },
+    { name: "Python", level: 30 }
   ];
 
   return (
