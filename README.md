@@ -1,2 +1,2 @@
 # portfolio-website
- Personal portfolip page
+ Personal portfolio page
