@@ -17,13 +17,11 @@ export default defineConfig({
         }
       }
     },
-    // Minify for production
-    minify: 'terser',
-    terserOptions: {
-      compress: {
-        drop_console: true, // Remove console logs in production
-        drop_debugger: true
-      }
+    // Use esbuild minifier (faster and built-in)
+    minify: 'esbuild',
+    // Drop console logs in production
+    esbuild: {
+      drop: ['console', 'debugger']
     }
   },
   // Optimize dev server
